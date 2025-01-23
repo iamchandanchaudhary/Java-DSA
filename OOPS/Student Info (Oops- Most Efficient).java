@@ -48,6 +48,5 @@ class OOPS {
         s2.studentInfo();
         s3.studentInfo();
         s4.studentInfo();
-        //s5.studentInfo();
     }
 }
