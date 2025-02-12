@@ -22,7 +22,7 @@ class Student extends Person {
     }
 }
 
-class Function {
+class Overriding {
     public static void main(String[] args) {
         System.out.println("Function Overriding:- \n");
     

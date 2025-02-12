@@ -27,7 +27,7 @@ class Student {
     }
 }
 
-class Function {
+class Overloading {
     public static void main(String[] args) {
         System.out.println("Function Overloading:- \n");
     
