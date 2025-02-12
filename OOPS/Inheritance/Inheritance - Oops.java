@@ -21,14 +21,12 @@ class Rectangle extends Shape {
     }
 }
 
-class Triangle extends Shape {
-    double length;
-    double width;
+class Square extends Shape {
+    double side;
 
-    public void triangleInfo() {
-        area = 1/2 * (length * width);
-        System.out.println("Length: " + this.length);
-        System.out.println("Width: " + this.width);
+    public void squareInfo() {
+        area = side * side;
+        System.out.println("Side: " + this.side);
         System.out.println("Area: " + this.area + "\n");
     }
 }
@@ -37,7 +35,7 @@ class Circle extends Shape {
     double radius;
 
     public void circleInfo() {
-        area = (3.14 * radius * radius);
+        area = 3.14 * (radius * radius);
         System.out.println("Radius: " + this.radius);
         System.out.println("Area: " + this.area + "\n");
     }
@@ -54,13 +52,12 @@ class Main {
         r1.getInfo();
         r1.rectInfo();
 
-        Triangle t1 = new Triangle();
+        Square s1 = new Square();
 
-        t1.color = "Red";
-        t1.length = 12;
-        t1.width = 15;
-        t1.getInfo();
-        t1.triangleInfo();
+        s1.color = "Red";
+        s1.side = 12;
+        s1.getInfo();
+        s1.squareInfo();
 
         Circle c1 = new Circle();
 
