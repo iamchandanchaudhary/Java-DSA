@@ -12,7 +12,7 @@ class Student {
 
 class Base {
     public static void main(String[] args) {
-        System.out.println("Student Info.:- \n");
+        System.out.println("Student Information:- \n");
         
         Student s1 = new Student();
         s1.name = "Chandan Chaudhary";
