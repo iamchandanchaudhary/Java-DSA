@@ -49,15 +49,16 @@ class OOPS {
         s4.roll_no = 1432;
         s4.course = "Nursing";
 
-    // Copy the Information of 1st Student (s1)
-        Student s5 = new Student(s1);
-
         s1.studentInfo();
         s2.studentInfo();
         s3.studentInfo();
         s4.studentInfo();
         
-    // Calling the Student Information
+
+        // Copy the Information of 1st Student (s1)
+        Student s5 = new Student(s1);
+        
+        // Calling the Student Information
         s5.studentInfo();
     }
 }
