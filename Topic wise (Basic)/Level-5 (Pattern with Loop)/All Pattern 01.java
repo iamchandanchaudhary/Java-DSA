@@ -6,6 +6,7 @@ class Main {
         int num = 5;
 
         // ==> Square Pattern
+        // System.out.println("Square Pattern: ");
         // for(int i = 1; i <= num; i++) {
         //     for(int j = 1; j <= num; j++) {
         //         System.out.print("* ");
@@ -14,6 +15,7 @@ class Main {
         // }
 
         // ==> Hollow Rectangle
+        // System.out.println("ollow Rectangle: ");
         // for(int i = 1; i <= num; i++) {
         //     for(int j = 1; j <= num; j++) {
         //         if(i == num || i == 1 || j == num || j == 1) {
@@ -27,6 +29,7 @@ class Main {
         // }
 
         // ==> Lower half pyramid
+        // System.out.println("Lower half pyramid: ");
         // for(int i = 1; i <= num; i++) {
         //     for(int j = i; j <= num; j++) {
         //         System.out.print("* ");
@@ -35,6 +38,7 @@ class Main {
         // }
 
         // ==> Upper half pyramid
+        // System.out.println("Upper half pyramid: ");
         // for(int i = 1; i <= num; i++) {
         //     for(int j = 1; j <= i; j++) {
         //         System.out.print("* ");
@@ -43,6 +47,7 @@ class Main {
         // }
 
         // ==> Upper half same number pyramid
+        // System.out.println("Upper half same number pyramid: ");
         // for(int i = 1; i <= num; i++) {
         //     for(int j = 1; j <= i; j++) {
         //         System.out.print(i + " ");
@@ -51,6 +56,7 @@ class Main {
         // }
 
         // ==> Upper half different number pyramid
+        // System.out.println("Upper half different number pyramid: ");
         // for(int i = 1; i <= num; i++) {
         //     for(int j = 1; j <= i; j++) {
         //         System.out.print(j + " ");
@@ -59,6 +65,8 @@ class Main {
         // }
 
         // ==> Upper half different asscending number pyramid
+        System.out.println("Upper half different asscending number pyramid: ");
+
         int n = 0;
         for(int i = 1; i <= num; i++) {
             for(int j = 1; j <= i; j++) {
