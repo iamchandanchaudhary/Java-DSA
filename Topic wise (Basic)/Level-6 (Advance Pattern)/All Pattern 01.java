@@ -66,7 +66,6 @@ class Main {
 
         // ==> Upper half different asscending number pyramid
         System.out.println("Upper half different asscending number pyramid: ");
-
         int n = 0;
         for(int i = 1; i <= num; i++) {
             for(int j = 1; j <= i; j++) {
