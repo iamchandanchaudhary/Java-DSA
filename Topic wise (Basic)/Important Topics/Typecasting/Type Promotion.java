@@ -17,10 +17,17 @@ class TypePromotion {
         System.out.println(b-a);
 
         // Type Promotion
-        int c = b - a;
-        System.out.println(c);
+        int ans = b - a;
+        System.out.println(ans);
 
         // char d = b-a; // => Give ERROR 
+
+        short m = 8;
+        int n = 12;
+        char o = 'c';
+
+        byte bt = (byte)(m + n + o);
+        System.out.println(bt);
 
         // ==> Rule 2
         int p = 15;
@@ -30,5 +37,9 @@ class TypePromotion {
 
         double sum = p + q + r + s;
         System.out.println(sum);
+
+        byte x = 15;
+        x = (byte)(x + 5);
+        System.out.println(x);
     }
 }
