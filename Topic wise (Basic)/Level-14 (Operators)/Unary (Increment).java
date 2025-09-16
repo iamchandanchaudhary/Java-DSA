@@ -1,22 +1,21 @@
 class FirstClass {
     public static void main(String args[]) {
 
-        System.out.println("With post increment : ");
+        System.out.println("Post increment : ");
+
         int a = 10;
-        int b = 5;
 
-        //Post increment
-        b = a++;
-        System.out.println("A is " + a);
-        System.out.println("B is " + b);
+        // Post increment
+        int b = a++;  // 1st Use Value & 2nd Change Value
+        System.out.println("A is " + a); // 11
+        System.out.println("B is " + b); // 10
 
-        System.out.println("With pre increment : ");
+        System.out.println("Pre increment : ");
         int i = 20;
-        int j = 15;
 
-        //pre increment
-        j = ++i;
-        System.out.println("I is " + i);
-        System.out.println("J is " +j);
+        // pre increment
+        int j = ++i; // 1st Change Value & 2nd Use Value
+        System.out.println("I is " + i); // 21
+        System.out.println("J is " + j); // 21
     }
 }
