@@ -25,9 +25,9 @@ class FirstClass {
         System.out.println(mul);
 
         int ans1 = a - b + c;
-        System.out.println(ans);
+        System.out.println(ans1);
 
         int ans2 = (a * b) / (a - b);
-        System.out.println(ans);
+        System.out.println(ans2);
     }
 }
