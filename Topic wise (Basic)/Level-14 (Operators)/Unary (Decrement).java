@@ -1,4 +1,4 @@
-class Unary {
+class Operators {
     public static void main(String args[]) {
 
         System.out.println("Pre Decrement : ");

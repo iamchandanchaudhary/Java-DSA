@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Arithmetic {
+class Operators {
     public static void main(String args[]) {
         System.out.println("Arithmetic Operators:- \n");
 
