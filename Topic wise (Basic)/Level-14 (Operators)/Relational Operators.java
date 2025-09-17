@@ -12,7 +12,7 @@ class Operators {
         System.out.println("Is Lessthen?: " + (a < b));
         System.out.println("Is Greaterthen Equalto?: " + (a >= b));
         System.out.println("Is Lessthen Equalto?: " + (b <= c));
-        System.out.println("Is Not Equalsto?: " + ( a != b));
+        System.out.println("Is Not Equalto?: " + ( a != b));
 
 
         // Examples
