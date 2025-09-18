@@ -2,6 +2,8 @@ import java.util.*;
 
 class FirstClass {
     public static void main(String args[]) {
+        System.out.println("Adult or Not:- \n");
+
         Scanner sc = new Scanner(System.in);
         int age = sc.nextInt();
 
