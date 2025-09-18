@@ -1,7 +1,6 @@
 import java.util.*;
 
 class FirstFunction {
-
     public static int calculateMultiply(int a, int b) {
         int mul = a * b;
         return mul;

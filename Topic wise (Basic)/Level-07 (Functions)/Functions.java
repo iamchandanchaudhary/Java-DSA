@@ -1,6 +1,6 @@
 import java.util.*;
 
-class FirstClass {
+class FirstFunction {
     public static void printMyName(String name) {
         System.out.println(name);
         return;

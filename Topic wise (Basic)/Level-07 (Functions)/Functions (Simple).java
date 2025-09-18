@@ -10,6 +10,6 @@ class FirstFactorial {
         for(int i = n; i >= 1; i--) {
             factorial = factorial * i;
         }
-        System.out.println("Factorial of this no. : "+ factorial);
+        System.out.println("Factorial of this no. : " + factorial);
     }
 }

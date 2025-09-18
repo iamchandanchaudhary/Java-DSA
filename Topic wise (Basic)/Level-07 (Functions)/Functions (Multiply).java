@@ -1,6 +1,6 @@
 import java.util.*;
 
-class publicFunctions {
+class FirstFunction {
     public static int printMultiply(int a, int b) {
         int mul = a * b;
         return mul;

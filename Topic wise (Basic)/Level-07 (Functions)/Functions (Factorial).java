@@ -1,6 +1,6 @@
 import java.util.*;
 
-class FirstClass {
+class FirstFunction {
     public static int calculateFactorial(int n) {
         int factorial = 1;
         return factorial;
