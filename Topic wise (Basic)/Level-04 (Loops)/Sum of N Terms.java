@@ -2,7 +2,11 @@ import java.util.*;
 
 class FirstClass {
     public static void main(String args[]) {
+        System.out.println("Sum of N terms:- \n");
+
         Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Number: ");
         int n = sc.nextInt();
 
         int sum = 0;

@@ -1,11 +1,10 @@
 class FirstLoop {
     public static void main(String args[]) {
-        System.out.println("do while loop:- \n");
 
-        int i = 0;
+        int i = 12;
         do {
             System.out.println(i);
-            i = i + 1;
-        } while(i < 21);
+            i++;
+        } while(i < 11);
     }
 }
