@@ -10,7 +10,7 @@ class FirstFunction {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        int sum = calculateSum(a, b);
-        System.out.println(sum);
+        int add = calculateSum(a, b);
+        System.out.println(add);
     }
 }
