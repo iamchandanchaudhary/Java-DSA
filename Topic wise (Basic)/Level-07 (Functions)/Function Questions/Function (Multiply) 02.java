@@ -1,15 +1,13 @@
 import java.util.*;
 
 class FirstFunction {
-    public static int printSum(int a, int b) {
-        int sum = a + b;
-        System.out.println("\nSum is : " + sum);
-        return 1;
+    public static int calculateMultiply(int a, int b) {
+        int mul = a * b;
+        return mul;
     }
 
     public static void main(String args[]) {
-
-        System.out.println("Addition with Function :- \n");
+        System.out.println("Multipication with Function :- \n");
 
         Scanner sc = new Scanner(System.in);
 
@@ -19,6 +17,7 @@ class FirstFunction {
         System.out.print("Enter 2nd Value : ");
         int b = sc.nextInt();
 
-        printSum(a, b);
+        int mul = calculateMultiply(a, b);
+        System.out.println("\nTheir Multiply : " + mul);
     }
 }

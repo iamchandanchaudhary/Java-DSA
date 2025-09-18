@@ -2,8 +2,8 @@ import java.util.*;
 
 class FirstFunction {
     public static int printMultiply(int a, int b) {
-        int mul = a * b;
-        return mul;
+        // int mul = a * b;
+        return a * b;
     }
 
     public static void main(String args[]) {
