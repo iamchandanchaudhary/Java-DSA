@@ -2,17 +2,17 @@ import java.util.*;
 
 class FirstClass {
     public static void main(String args[]) {
-        System.out.println("Sum of N terms:- \n");
+        System.out.println("Factorial of N:- \n");
 
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter Number: ");
         int num = sc.nextInt();
 
-        int sum = 0;
-        for( int i = 0; i <= num; i++ ) {
-            sum = sum + i;
+        int fact = 1;
+        for( int i = 1; i <= num; i++ ) {
+            fact = fact * i;
         } 
-        System.out.println(sum);
+        System.out.println("Factorial of " + num + ": " + fact);
     }
 }
