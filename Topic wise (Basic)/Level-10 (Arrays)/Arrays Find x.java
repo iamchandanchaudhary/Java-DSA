@@ -1,32 +1,32 @@
 import java.util.*;
 
-class FirstArrays {
+class FirstArray {
     public static void main(String args[]) {
-    
-    //Beauty
-    System.out.print("Enter input size : ");
 
-    Scanner sc = new Scanner(System.in);
-    int size = sc.nextInt();
-    int number[] = new int[size];
+        // Beauty
+        System.out.print("Enter input size : ");
 
-    System.out.println("Enter inputs : ");
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        int number[] = new int[size];
 
-    //input
-    for(int i = 0; i < size; i++) {
-        number[i] = sc.nextInt();
-    }
-    //Beauty
-    System.out.print("Enter x no. : ");
+        System.out.println("Enter inputs : ");
 
-    int x = sc.nextInt();
-
-    //output
-    for(int i = 0; i < size; i++) {
-        if(number [i] == x) {
-            System.out.println("x found at index : " + i);
+        // input
+        for (int i = 0; i < size; i++) {
+            number[i] = sc.nextInt();
         }
-        
-    }
+
+        // Beauty
+        System.out.print("Enter x no. : ");
+        int x = sc.nextInt();
+
+        // output
+        for (int i = 0; i < size; i++) {
+            if (number[i] == x) {
+                System.out.println("x found at index : " + i);
+            }
+
+        }
     }
 }

@@ -1,4 +1,4 @@
-class Arrays {
+class FirstArray {
     public static void main(String args[]) {
 
         int arr[] = {21, 8, 8, 5, 4, 1, 9};
