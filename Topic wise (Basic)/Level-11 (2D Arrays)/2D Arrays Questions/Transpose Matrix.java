@@ -11,13 +11,13 @@ class FirstArray {
     }
 
     public static void main(String args[]){
-        System.out.println("2D Arrays:- \n");
+        System.out.println("Transpose the 2D Array:- \n");
 
         int matrix[][] = {{2, 3, 7}, {6, 7, 4}};
 
         int row = 2, col = 3;
 
-        System.out.println("Original Array");
+        System.out.println("Original Array: ");
         transpose(matrix);
 
         int transpose[][] = new int[col][row];

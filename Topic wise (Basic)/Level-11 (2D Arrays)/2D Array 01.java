@@ -15,5 +15,7 @@ class FirstArray {
             }
             System.out.println();
         }
+
+        System.out.println("Value at index(1,2): " + numbers[1][2]);
     }
 }

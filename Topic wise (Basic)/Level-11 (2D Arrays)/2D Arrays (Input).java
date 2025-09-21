@@ -1,39 +1,40 @@
 import java.util.*;
 
-class FirstArrays {
-    public static void main(String args[]) {
+class FirstArray {
+    public static void main(String args[]){
+        System.out.println("Creating 2D Arrays :- \n");
 
-        System.out.print("Enter rows no.: ");
+        System.out.print("Enter rows No. : ");
+
         Scanner sc = new Scanner(System.in);
         int rows = sc.nextInt();
 
-        System.out.print("Enter cols no.: ");
+        System.out.print("Enter cols No. : ");
         int cols = sc.nextInt();
 
         int numbers[] [] = new int[rows] [cols];
 
-        System.out.println("Enter input no.");
+        System.out.println("\nEnter your Values : ");
         //input
         //rows
         for(int i = 0; i < rows; i++) {
             //cols
             for(int j = 0; j < cols; j++) {
                 System.out.print("Enter value of index (" + i + "," + j + "): " );
-                numbers [i] [j] = sc.nextInt();
+                numbers[i] [j] = sc.nextInt();
             }
         }
-        System.out.print("Find any no.: ");
-        int x = sc.nextInt();
+        System.out.println("\nYour Values in 2D Array(Matrix): ");
 
+        //output
         //rows
         for(int i = 0; i < rows; i++) {
             //cols
             for(int j = 0; j < cols; j++) {
-                if(numbers [i] [j] == x)
-                System.out.print("x found at index : (" + i + ", " + j+")");
+                System.out.print(numbers[i][j] + " ");
             }
             System.out.println();
         }
-        System.out.println("Thank you!");
+        System.out.println("\nThank you :)");
     }
 }
