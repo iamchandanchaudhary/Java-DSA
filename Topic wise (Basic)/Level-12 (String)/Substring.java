@@ -4,7 +4,9 @@ class FirstString {
 
         String sentence = "My name is Chandan Chaudhary";
         String name = sentence.substring(11, 18);
+        // ending index is not included
         
-        System.out.println(name);
+        System.out.println("Full Sentence: " + sentence);
+        System.out.println("Name: " + name);
     }
 }
