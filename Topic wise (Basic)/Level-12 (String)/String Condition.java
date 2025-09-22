@@ -1,5 +1,6 @@
-class FirstStrings {
+class FirstString {
     public static void main(String args[]) {
+        System.out.println("Conditions on String:- \n");
 
         String name1 = "Chandan";
         String name2 = "Chandan";

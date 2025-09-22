@@ -1,4 +1,4 @@
-class Firstnumbersay {
+class FirstArray {
     public static void main(String args[]) {
         // Wrost Case -> Big O
         System.out.println("Reverse an numbersay:- \n");

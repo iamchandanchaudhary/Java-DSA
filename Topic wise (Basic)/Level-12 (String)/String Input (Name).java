@@ -1,6 +1,6 @@
 import java.util.*;
 
-class FirstStrings {
+class FirstString {
     public static void main(String args[]) {
 
         System.out.print("Enter first name : ");
