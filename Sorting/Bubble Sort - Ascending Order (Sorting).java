@@ -1,9 +1,9 @@
 import java.util.*;
 
-class Shorting {
+class Sorting {
 
     public static void main(String args[]) {
-        System.out.println("Shorting (Bubble Short) :- \n");
+        System.out.println("Sorting (Bubble Short) :- \n");
 
         int arr[] = {9, 1, 5, 7, 2, 6, 4};
 
@@ -14,8 +14,8 @@ class Shorting {
         System.out.println();
 
         // Time Complaxity ==> O(n^2)
-        // Bubble Shorting
-        System.out.print("Shorting in Accending Order : ");
+        // Bubble Sorting
+        System.out.print("Sorting in Accending Order : ");
         for(int i = 0; i < arr.length-1; i++) {
             for(int j = 0; j < arr.length-i-1; j++) {
 

@@ -1,14 +1,14 @@
 import java.util.*;
 
-class Shorting {
-    public static void shortingArr(int arr[]) {
+class Sorting {
+    public static void sortingArr(int arr[]) {
         for(int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
     }
     public static void main(String args[]) {
-        System.out.println("Shorting in Ascending order : ");
+        System.out.println("Sorting in Ascending order : ");
 
         int arr[] = {6, 8, 12, 9, 32, 1, 7, 6, 3, 2};
 
@@ -23,6 +23,6 @@ class Shorting {
                 }
             }
         }
-        shortingArr(arr);
+        sortingArr(arr);
     }
 }

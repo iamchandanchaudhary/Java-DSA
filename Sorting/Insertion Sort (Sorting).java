@@ -1,7 +1,7 @@
-class Short {
+class Sorting {
     public static void main(String args[]) {
 
-        System.out.println("Insertion Short : \n");
+        System.out.println("Insertion Sort : \n");
 
         int arr[] = {3, 1, 9, 5, 8, 0, 2};
 
@@ -11,7 +11,7 @@ class Short {
         }
         System.out.println();
 
-        // Insertion Short
+        // Insertion Sort
         for(int i = 1; i < arr.length; i++) {
             int current = arr[i];
             int j = i-1;

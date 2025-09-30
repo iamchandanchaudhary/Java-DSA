@@ -1,11 +1,11 @@
 import java.util.*;
 
-class Shorting {
+class Sorting {
     public static void main(String args[]) {
 
-        System.out.println("==> Bubble Short :- \n");
+        System.out.println("==> Bubble Sort :- \n");
 
-        System.out.println("Shorting Ascending Order : ");
+        System.out.println("Sorting Ascending Order : ");
         Scanner sc = new Scanner(System.in);
 
         // Defining Arrays Size
@@ -27,7 +27,7 @@ class Shorting {
         }
         System.out.println();
 
-        // Bubble Short
+        // Bubble Sort
         for(int i = 0; i < arr.length-1; i++) {
             for(int j = 0; j < arr.length-i-1; j++) {
 

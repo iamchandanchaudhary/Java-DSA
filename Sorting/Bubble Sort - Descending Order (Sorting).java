@@ -1,7 +1,7 @@
-class Shorting {
+class Sorting {
     public static void main(String args[]) {
 
-        System.out.println("Shorting :- \n");
+        System.out.println("Sorting :- \n");
 
         int arr[] = {2, 8, 4, 9, 1, 9, 2, 5};
 
@@ -12,7 +12,7 @@ class Shorting {
         }
         System.out.println();
 
-        // Bubble Short
+        // Bubble Sort
         for(int i = 0; i < arr.length-1; i++) {
             for(int j = 0; j < arr.length-i-1; j++) {
 

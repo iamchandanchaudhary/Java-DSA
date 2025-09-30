@@ -1,6 +1,6 @@
-class Short {
+class Sorting {
     public static void main(String args[]) {
-        System.out.println("Slection Short :- \n");
+        System.out.println("Slection Sort :- \n");
 
         int arr[] = {9, 3, 7, 1, 8, 0};
 
@@ -11,7 +11,7 @@ class Short {
         System.out.println();
 
         // Time Complaxity ==> O(n^2)
-        // Selection Short
+        // Selection Sort
         for(int i = 0; i < arr.length-1; i++) {
             int smallest = i;
             for(int j = i+1; j < arr.length; j++) {
