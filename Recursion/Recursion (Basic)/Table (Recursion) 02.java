@@ -3,7 +3,7 @@ class Recursion {
         if(i == 11) {
             return;
         }
-        System.out.println(value + " * "+ i + " : " + i * value);
+        System.out.println(value + " * "+ i + " = " + i * value);
         printTable(i+1, value);
     }
 

@@ -3,7 +3,6 @@ import java.util.*;
 class Recursion { 
     public static void printTable(int i, int value) {
         if(i == 11) {
-
             return;
         }
         System.out.println(value + " * "+ i + " : " + i*value);
