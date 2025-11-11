@@ -10,7 +10,7 @@
  * Output: 7 -> 0 -> 8
  */
 
-public class AddTwoNumbers2 {
+class AddTwoNumbers2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(0);
         ListNode p = dummy;
