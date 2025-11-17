@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+class Solution {
     public int numberOfSubstrings(String s) {
         List<Integer> zero = new ArrayList<>();
         zero.add(-1);
