@@ -21,7 +21,7 @@ class Sorting {
         System.out.println();
 
         // Origenal List
-        System.out.print("Origenal Order : ");
+        System.out.print("Original Order : ");
         for(int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
